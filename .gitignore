@@ -1,0 +1,21 @@
+# Виртуальное окружение
+.venv/
+
+# Локальные секреты
+.env
+.env.*
+!.env.example
+
+# Данные
+data/
+*.parquet
+*.csv
+
+# Служебные файлы Python и Jupyter
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Локальные артефакты моделей и экспериментов
+artifacts/
+mlruns/
