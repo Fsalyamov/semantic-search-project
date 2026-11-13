@@ -41,14 +41,13 @@ NDCG использует исходную шкалу релевантности
 Команды ниже предназначены для PowerShell в Windows.
 
 ```powershell
-git clone https://ds-practicum.gitlab.yandexcloud.net/s20436636/semantic-search-project.git
+git clone https://github.com/Fsalyamov/semantic-search-project.git
 cd semantic-search-project
 py -3.12 -m venv .venv
 .\.venv\Scripts\python.exe -m pip install -r requirements.txt
 .\.venv\Scripts\python.exe -m pip check
 ```
 
-Если репозиторий закрыт, потребуется авторизация в учебном GitLab.
 
 ## Настройка доступа
 Создайте файл .env в корне проекта:
